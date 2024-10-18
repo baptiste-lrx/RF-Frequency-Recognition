@@ -1,0 +1,13 @@
+# Libraries nécessaires pour le projet
+numpy
+scipy
+scikit-learn
+tensorflow
+keras
+pytorch
+matplotlib
+seaborn
+opencv-python
+jupyter
+pandas
+librosa

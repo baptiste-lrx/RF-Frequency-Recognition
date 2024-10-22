@@ -18,8 +18,9 @@ def evaluate_model(features_file='data/features/features.csv', model_file='model
     df = pd.read_csv(features_file)
     print(f"Caractéristiques chargées depuis {features_file}")
 
-    # Pour cet exemple, nous allons générer des labels aléatoires
-    df['label'] = 0  # Remplacez par vos labels réels
+    # Vérifier que le label est présent
+    if 'label' not in df.columns:
+        raise ValueError("Le fichier des caractéristiques doit contenir une colonne 'label'.")
 
     # Séparer les features et les labels
     X = df.drop('label', axis=1)
@@ -50,4 +51,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    evaluate_model(features_file=args.features, model_file=args.model)
+    evaluate_model(
+        features_file=args.features,
+        model_file=args.model
+    )

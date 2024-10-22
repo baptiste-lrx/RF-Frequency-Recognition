@@ -49,4 +49,10 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    preprocess_signal(input_file=args.input, output_file=args.output, sample_rate=args.sample_rate, lowcut=args.lowcut, highcut=args.highcut)
+    preprocess_signal(
+        input_file=args.input,
+        output_file=args.output,
+        sample_rate=args.sample_rate,
+        lowcut=args.lowcut,
+        highcut=args.highcut
+    )

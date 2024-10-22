@@ -18,9 +18,9 @@ def train_model(features_file='data/features/features.csv', model_file='models/r
     df = pd.read_csv(features_file)
     print(f"Caractéristiques chargées depuis {features_file}")
 
-    # Pour cet exemple, nous allons générer des labels aléatoires
-    # Dans un vrai cas, vous auriez des labels correspondant aux types de signaux
-    df['label'] = 0  # Remplacez par vos labels réels
+    # Vérifier que le label est présent
+    if 'label' not in df.columns:
+        raise ValueError("Le fichier des caractéristiques doit contenir une colonne 'label'.")
 
     # Séparer les features et les labels
     X = df.drop('label', axis=1)
@@ -34,6 +34,10 @@ def train_model(features_file='data/features/features.csv', model_file='models/r
     clf.fit(X_train, y_train)
     print("Entraînement du modèle terminé.")
 
+    # Évaluer le modèle sur l'ensemble de test
+    score = clf.score(X_test, y_test)
+    print(f"Précision du modèle sur l'ensemble de test : {score:.2f}")
+
     # Sauvegarder le modèle
     joblib.dump(clf, model_file)
     print(f"Modèle sauvegardé dans {model_file}")
@@ -45,4 +49,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    train_model(features_file=args.features, model_file=args.model)
+    train_model(
+        features_file=args.features,
+        model_file=args.model
+    )

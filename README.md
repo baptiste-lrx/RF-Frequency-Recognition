@@ -1,58 +1,57 @@
 # RF-Frequency-Recognition
 
-**Reconnaissance Automatique des Fréquences RF**
+**Automatic RF-Frequency-Recognition **)
 
 ## Introduction
 
-Bienvenue dans le projet de **Reconnaissance Automatique des Fréquences RF**. Ce projet vise à développer une application capable de reconnaître et de classifier automatiquement différentes fréquences radiofréquences (RF) en temps réel en utilisant des techniques d'intelligence artificielle (IA). Ce document détaille le plan d'action pour structurer, développer et déployer ce projet.
+Welcome to the **Automatic RF Frequency Recognition** project. This project aims to develop an application capable of automatically recognizing and classifying different radiofrequencies (RF) in real time, using artificial intelligence (AI) techniques. This document details the action plan for structuring, developing and deploying this project.
 
-## Table des Matières
+## Table of contents
 1. [Introduction](#introduction)
-2. [Objectifs du Projet](#objectifs-du-projet)
-3. [Planification et Organisation](#planification-et-organisation)
-4. [Configuration de l'Environnement de Développement](#configuration-de-lenvironnement-de-développement)
-5. [Acquisition et Collecte des Données RF](#acquisition-et-collecte-des-données-rf)
-6. [Prétraitement et Traitement des Signaux](#prétraitement-et-traitement-des-signaux)
-7. [Extraction des Caractéristiques](#extraction-des-caractéristiques)
-8. [Développement et Entraînement du Modèle IA](#développement-et-entraînement-du-modèle-ia)
-9. [Évaluation et Validation du Modèle](#évaluation-et-validation-du-modèle)
-10. [Déploiement et Intégration](#déploiement-et-intégration)
-11. [Documentation et Mise en Ligne sur GitHub](#documentation-et-mise-en-ligne-sur-github)
-12. [Ressources et Références Utiles](#ressources-et-références-utiles)
-13. [Bonnes Pratiques et Conseils](#bonnes-pratiques-et-conseils)
+2. [Project objectives](#project-objectives)
+3. [Planning and Organization](#planning-and-organization)
+4. [Development Environment Configuration](#development-environment-configuration)
+5. [RF Data Acquisition and Collection](#acquisition-et-collecte-données-rf)
+6. [Signal Preprocessing and Processing](#signalpreprocessing-and-processing)
+7. [Feature Extraction](#feature-extraction)
+8. [IA Model Development and Training](#ia-model-development-and-training)
+9. [Model Evaluation and Validation](#evaluation-and-validation-of-the-model)
+10. [Deployment and Integration](#deployment-and-integration)
+11. [Documentation and GitHub upload](#documentation-and-gitHub upload)
+12. [Resources and Useful References](#ressources-et-références-utiles)
+13. [Good Practices and Advice](#good-practices-and-advice)
 14. [Conclusion](#conclusion)
 
-## Objectifs du Projet
+## Project objectives
 
-### Objectifs Principaux
-- **Classification des Signaux RF** : Identifier et classer automatiquement différents types de signaux RF (Wi-Fi, Bluetooth, LTE, etc.).
-- **Détection d'Anomalies** : Repérer des signaux inhabituels ou non autorisés.
-- **Optimisation du Spectre** : Aider à la gestion dynamique des fréquences pour réduire les interférences.
+### Main Objectives
+- **RF Signal Classification**: Automatically identify and classify different types of RF signals (Wi-Fi, Bluetooth, LTE, etc.).
+- **Anomaly Detection**: Identify unusual or unauthorized signals.
+- **Spectrum Optimization**: Assist in dynamic frequency management to reduce interference.
 
-### Cas d'Utilisation
-- **Sécurité et Surveillance** : Détection de transmissions non autorisées.
-- **Gestion du Spectre** : Allocation dynamique des fréquences dans les réseaux de communication.
-- **Applications Aéronautiques et Satellitaires** : Surveillance des communications aériennes et spatiales.
+### Use cases
+- **Security & Surveillance**: Detect unauthorized transmissions.
+- **Spectrum Management**: Dynamic frequency allocation in communication networks.
+- **Aeronautical and Satellite Applications**: Monitoring of air and space communications.
 
 ## Installation
 
-Voir [docs/installation.md](docs/installation.md) pour les instructions d'installation.
+See [docs/installation.md](docs/installation.md) for installation instructions.
 
 ## Usage
 
-Voir [docs/usage.md](docs/usage.md) pour les instructions d'utilisation.
+See [docs/usage.md](docs/usage.md) for usage instructions.
 
 ## Contributions
 
-Les contributions sont les bienvenues ! Veuillez consulter les [guidelines de contribution](CONTRIBUTING.md) pour plus de détails.
+Contributions are welcome! Please see [contribution guidelines](CONTRIBUTING.md) for details.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Contact et Support
+## Contact and Support
 
-Pour toute question ou suggestion, veuillez ouvrir une [issue](https://github.com/votre-utilisateur/RF-Frequency-Recognition/issues) sur GitHub ou me contacter directement via [email@example.com](mailto:email@example.com).
-
+For questions or suggestions, please open an [issue](https://github.com/votre-utilisateur/RF-Frequency-Recognition/issues) on GitHub or contact me directly via [email@example.com](mailto:email@example.com).

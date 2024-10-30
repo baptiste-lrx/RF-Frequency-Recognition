@@ -1,6 +1,6 @@
 # RF-Frequency-Recognition
 
-**Automatic RF-Frequency-Recognition **)
+**Automatic RF-Frequency-Recognition**
 
 ## Introduction
 
